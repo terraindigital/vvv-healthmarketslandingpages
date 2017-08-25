@@ -35,7 +35,7 @@ define( 'WP_DEBUG', true );
 PHP
 
   echo "Installing WordPress Stable..."
-  noroot wp core install --url=local.healthmarketslandingpages.dev --quiet --title="Local HM Landing Pages Dev" --admin_name=admin --admin_email="admin@local.dev" --admin_password="password"
+  noroot wp core multisite-install --url=local.healthmarketslandingpages.dev --quiet --title="Local HM Landing Pages Dev" --admin_name=admin --admin_email="admin@local.dev" --admin_password="password"
 
 else
 
